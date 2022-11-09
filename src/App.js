@@ -4,11 +4,9 @@ import Counter from './components/Counter'
 
 function App() {
   let windowWidth = window.innerWidth
-  let windowHeight = window.innerHeight
   let columns = 8
   let cellSize = Math.round((windowWidth / 1.5 - 20) / columns) < 80 ? Math.round((windowWidth / 1.5 - 40) / columns) : 80
 
-  // console.log(windowWidth,windowHeight,cellSize);
   return (
     <div className="App">
       <div className="wrapper" id='wrapper'>
