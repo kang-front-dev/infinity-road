@@ -8,7 +8,7 @@ function App() {
   let columns = 8
   let cellSize = Math.round((windowWidth / 1.5 - 20) / columns) < 80 ? Math.round((windowWidth / 1.5 - 40) / columns) : 80
 
-  console.log(windowWidth,windowHeight,cellSize);
+  // console.log(windowWidth,windowHeight,cellSize);
   return (
     <div className="App">
       <div className="wrapper" id='wrapper'>

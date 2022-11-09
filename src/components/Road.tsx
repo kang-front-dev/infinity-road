@@ -122,7 +122,7 @@ export default function Road({ columns, cellSize}: IRoad) {
           resultArr.length
         );
         alreadyBuiltAmount = amountAfterRefresh;
-          console.log('slice completed');
+          // console.log('slice completed');
           
         roadPaddingBottom += (amountToRefresh / 10) * 3 * cellSize;
       }
@@ -130,8 +130,8 @@ export default function Road({ columns, cellSize}: IRoad) {
       if (alreadyBuiltAmount > amountToMove) {
         roadHeight += cellSize / 1.66666;
       }
-      console.log(resultArr.length,'resultArrLength');
-      console.log(alreadyBuiltAmount,'already built');
+      // console.log(resultArr.length,'resultArrLength');
+      // console.log(alreadyBuiltAmount,'already built');
       
       setBlocksSpecs(resultArr);
     }, 200);
