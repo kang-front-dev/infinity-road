@@ -1,0 +1,11 @@
+.road{
+  display: grid;
+
+  grid-template-columns: auto;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
+  transform: rotateX(80deg) translateY(0px) translateZ(-155px) rotateY(180deg) rotateZ(180deg);
+  transition: 0.2s linear height;
+}
+
